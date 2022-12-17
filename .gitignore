@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+bin/
+export/
+obj/
+ps/
+vgcore.*
+*.out
+prof_*
