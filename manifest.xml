@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="1d375413-8e2a-440c-bf38-6bc0e3ecbfdf" type="watchface" name="@Strings.AppName" entry="ciq_hakoneEkiden_watchfaceApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="2.0.0" version="0.1.0">
+    <iq:application id="1d375413-8e2a-440c-bf38-6bc0e3ecbfdf" type="watchface" name="@Strings.AppName" entry="ciq_hakoneEkiden_watchfaceApp" launcherIcon="@Drawables.id_launchericon_128x128" minApiLevel="2.0.0" version="0.1.25">
         <!--
             Use the following from the Visual Studio Code comand palette to edit the build targets:
             "Monkey C: Set Products by Version" - Lets you add all producs that meet the minimum SDK version of the application
@@ -48,14 +48,20 @@
             <iq:product id="fr255m"/>
             <iq:product id="fr255s"/>
             <iq:product id="fr255sm"/>
+            <iq:product id="fr265"/>
+            <iq:product id="fr265s"/>
+            <iq:product id="fr55"/>
             <iq:product id="fr645"/>
             <iq:product id="fr645m"/>
+            <iq:product id="fr735xt"/>
             <iq:product id="fr745"/>
             <iq:product id="fr935"/>
             <iq:product id="fr945"/>
             <iq:product id="fr945lte"/>
             <iq:product id="fr955"/>
+            <iq:product id="fr965"/>
             <iq:product id="instinct2"/>
+            <iq:product id="instinct2x"/>
             <iq:product id="instinctcrossover"/>
             <iq:product id="legacyherocaptainmarvel"/>
             <iq:product id="legacyherofirstavenger"/>
@@ -84,6 +90,7 @@
             <iq:product id="vivoactive3mlte"/>
             <iq:product id="vivoactive4"/>
             <iq:product id="vivoactive4s"/>
+            <iq:product id="vivolife"/>
         </iq:products>
         <!--
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command

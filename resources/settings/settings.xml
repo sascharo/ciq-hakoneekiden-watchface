@@ -136,6 +136,13 @@
     <setting propertyKey="@Properties.BatteryStatus" title="@Strings.BatteryStatusTitle">
         <settingConfig type="boolean" />
     </setting>
+    <setting propertyKey="@Properties.BatteryRainbowMode" title="@Strings.BatteryRainbowModeTitle">
+        <settingConfig type="list">
+			<listEntry value="0">@Strings.BatteryRainbowOff</listEntry>
+            <listEntry value="1">@Strings.BatteryRainbowHalf</listEntry>
+			<listEntry value="2">@Strings.BatteryRainbowFull</listEntry>
+        </settingConfig>
+    </setting>
     <setting propertyKey="@Properties.BatteryColor" title="@Strings.BatteryColorTitle">
         <settingConfig type="list">
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>

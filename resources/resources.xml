@@ -1,5 +1,5 @@
 <resources>
-	<bitmap id="id_launchericon_40x40" filename="images/launcherIcon_40x40.bmp" dithering="none" compress="false"></bitmap>
+	<bitmap id="id_launchericon_128x128" filename="images/launcherIcon_128x128.png" dithering="none" compress="false"></bitmap>
 	<bitmap id="id_hakone_dt" filename="images/hakoneEkiden_176x176.bmp" dithering="none" compress="false">
     	<palette disableTransparency="true">
     		<color>000000</color>

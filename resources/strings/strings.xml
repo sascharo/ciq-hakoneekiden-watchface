@@ -15,6 +15,11 @@
     <string id="StepsColorTitle">Steps Color</string>
     
     <string id="BatteryStatusTitle">Battery Status</string>
+    <string id="BatteryRainbowTitle">Battery Rainbow</string>
+    <string id="BatteryRainbowModeTitle">Battery Rainbow</string>
+    <string id="BatteryRainbowOff">Off</string>
+    <string id="BatteryRainbowHalf">Half</string>
+    <string id="BatteryRainbowFull">Full</string>
     <string id="BatteryColorTitle">Battery Color</string>
     
     <string id="BGDuotone">Duotone</string>

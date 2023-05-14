@@ -13,6 +13,7 @@
     <property id="StepsColor" type="number">0xD4F1F4</property>
     
     <property id="BatteryStatus" type="boolean">true</property>
+    <property id="BatteryRainbowMode" type="number">1</property>
     <property id="BatteryColor" type="number">0xD4F1F4</property>
 
 </properties>
