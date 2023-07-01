@@ -26,16 +26,24 @@ class ciq_hakoneEkiden_watchfaceView extends WatchUi.WatchFace {
         // switch (Application.getApp().getProperty("BGMode")) {
 		switch (Application.Properties.getValue("BGMode")) {
         	case 0:
+			{
         		bgbitmap = WatchUi.loadResource(Rez.Drawables.id_hakone);
         		break;
+			}
         	case 1:
+			{
         		bgbitmap = WatchUi.loadResource(Rez.Drawables.id_hakone_dt);
         		break;
+			}
         	case 2:
+			{
         		bgbitmap = WatchUi.loadResource(Rez.Drawables.id_hakone_tt);
         		break;
+			}
         	default:
+			{
         		bgbitmap = WatchUi.loadResource(Rez.Drawables.id_hakone_ep);
+			}
         }
     	    
         fontTime = WatchUi.loadResource(Rez.Fonts.time);
