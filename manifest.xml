@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="1d375413-8e2a-440c-bf38-6bc0e3ecbfdf" type="watchface" name="@Strings.AppName" entry="ciq_hakoneEkiden_watchfaceApp" launcherIcon="@Drawables.id_launchericon_128x128" minApiLevel="2.0.0" version="0.1.30">
+    <iq:application id="1d375413-8e2a-440c-bf38-6bc0e3ecbfdf" type="watchface" name="@Strings.AppName" entry="ciq_hakoneEkiden_watchfaceApp" launcherIcon="@Drawables.id_launchericon_128x128" minApiLevel="2.0.0" version="0.6.41">
         <!--
             Use the following from the Visual Studio Code comand palette to edit the build targets:
             "Monkey C: Set Products by Version" - Lets you add all producs that meet the minimum SDK version of the application
@@ -27,6 +27,8 @@
             <iq:product id="descentmk1"/>
             <iq:product id="descentmk2"/>
             <iq:product id="descentmk2s"/>
+            <iq:product id="descentmk343mm"/>
+            <iq:product id="descentmk351mm"/>
             <iq:product id="enduro"/>
             <iq:product id="epix2"/>
             <iq:product id="epix2pro42mm"/>
@@ -45,10 +47,12 @@
             <iq:product id="fenix6xpro"/>
             <iq:product id="fenix7"/>
             <iq:product id="fenix7pro"/>
+            <iq:product id="fenix7pronowifi"/>
             <iq:product id="fenix7s"/>
             <iq:product id="fenix7spro"/>
             <iq:product id="fenix7x"/>
             <iq:product id="fenix7xpro"/>
+            <iq:product id="fenix7xpronowifi"/>
             <iq:product id="fenixchronos"/>
             <iq:product id="fr245"/>
             <iq:product id="fr245m"/>
@@ -89,6 +93,8 @@
             <iq:product id="venu2"/>
             <iq:product id="venu2plus"/>
             <iq:product id="venu2s"/>
+            <iq:product id="venu3"/>
+            <iq:product id="venu3s"/>
             <iq:product id="venud"/>
             <iq:product id="venusq"/>
             <iq:product id="venusqm"/>
@@ -98,6 +104,7 @@
             <iq:product id="vivoactive3mlte"/>
             <iq:product id="vivoactive4"/>
             <iq:product id="vivoactive4s"/>
+            <iq:product id="vivoactive5"/>
             <iq:product id="vivolife"/>
         </iq:products>
         <!--
