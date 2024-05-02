@@ -3,7 +3,6 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class ciq_hakoneEkiden_watchfaceApp extends Application.AppBase {
-
     function initialize() {
         AppBase.initialize();
     }
@@ -17,15 +16,14 @@ class ciq_hakoneEkiden_watchfaceApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new ciq_hakoneEkiden_watchfaceView() ] as Array<Views or InputDelegates>;
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        return [ new ciq_hakoneEkiden_watchfaceView() ];
     }
 
     // New app settings have been received so trigger a UI update
     function onSettingsChanged() as Void {
         WatchUi.requestUpdate();
     }
-
 }
 
 function getApp() as ciq_hakoneEkiden_watchfaceApp {
